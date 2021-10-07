@@ -11,9 +11,10 @@ int main() {
         
        result += remainder * remainder * remainder;
         
-       // removing last digit from the orignal number
+       // removing last digit from the orignal number and this is direct step to get last digit.
        originalNum /= 10;
     }
+    //now, to get result we will use for loop
 
     if (result == num)
         printf("%d is an Armstrong number.", num);
